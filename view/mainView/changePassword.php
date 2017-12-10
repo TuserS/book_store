@@ -9,7 +9,7 @@
         <tr>
             <td>
                 <table>
-                    <tr>
+                    <tr valign="top" height="500px">
                         <?php include("../partialView/nav.php"); ?>
                         <td bgcolor="WhiteSmoke" width="80%" valign="top">
 
@@ -23,7 +23,7 @@
 
                                         <table>
                                             <tr>
-                                                <td><font color="SlateGrey">Current Password</font></td>
+                                                <td>Current Password</td>
                                                 <td>:<input name="old" type="password"></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
@@ -46,9 +46,11 @@
                                     </form>
                                 </td>
                             </table>
+                            <br><br>
                         </td>
                     </tr>
                 </table>
+
             </td>
         </tr>
         <?php include("../partialView/bottom.php"); ?>

@@ -10,7 +10,7 @@
             <td>
                 <table>
 
-                    <tr>
+                    <tr valign="top" height="500px">
                         <?php include("../partialView/nav.php"); ?>
                         <td bgcolor="WhiteSmoke" width="80%" valign="top">
                             <table align="center" width="70%">
@@ -22,8 +22,8 @@
                                         <table>
 
                                             <tr>
-                                                <td><font color="SlateGrey">Name</font></td>
-                                                <td>: <b> <font color="SlateGrey"> Md Tuser Sheikh</font> </b></td>
+                                                <td>Name</td>
+                                                <td>: <b> Md Tuser Sheikh </b></td>
                                                 <td rowspan="7" align="center">
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                                     <img src='' height="200px">
@@ -34,17 +34,17 @@
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
-                                                <td><font color="SlateGrey">Email</font></td>
-                                                <td>: <b> <font color="SlateGrey">tuser@gmail.com</font> </b></td>
+                                                <td>Email</td>
+                                                <td>: <b> tuser@gmail.com </b></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
-                                                <td><font color="SlateGrey">Gender</font></td>
-                                                <td>: <b> <font color="SlateGrey">Male</font></b></td>
+                                                <td>Gender</td>
+                                                <td>: <b> Male</b></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
-                                                <td><font color="SlateGrey">Date of Birth</font></td>
+                                                <td>Date of Birth</td>
                                                 <td>:
                                                     <b>date</b> /
                                                     <b>month</b> /
@@ -61,7 +61,7 @@
                                     </form>
                                 </td>
                             </table>
-
+                            <br><br>
                         </td>
                     </tr>
                 </table>

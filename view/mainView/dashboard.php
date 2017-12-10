@@ -9,7 +9,7 @@
         <tr>
             <td>
                 <table>
-                    <tr>
+                    <tr valign="top" height="500px">
                         <?php include("../partialView/nav.php"); ?>
                         <td bgcolor="WhiteSmoke" width="80%" valign="top">
                             <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

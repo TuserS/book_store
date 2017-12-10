@@ -20,11 +20,12 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Administration</b></font>
         <hr width="80%">
         <ul>
-            <li><a href="#"><font color="LightSlateGray">Create Admin</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Create Author</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Create Publication</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Create Book</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Remove User</font></a></li>
+            <li><a href="../mainView/createAdmin.php"><font color="LightSlateGray">Create Admin</font></a></li>
+            <li><a href="../mainView/createBook.php"><font color="LightSlateGray">Create Book</font></a></li>
+            <li><a href="../mainView/createCategory.php"><font color="LightSlateGray">Create Category</font></a></li>
+            <li><a href="../mainView/createAuthor.php"><font color="LightSlateGray">Create Author</font></a></li>
+            <li><a href="../mainView/createPublication.php"><font color="LightSlateGray">Create Publication</font></a></li>
+            <li><a href="../mainView/removeUser.php"><font color="LightSlateGray">Remove User</font></a></li>
         </ul>
         <!-- End Administration -->
     <?php endif; ?>
@@ -33,11 +34,11 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Report</b></font>
         <hr width="80%">
         <ul>
-            <li><a href="#"><font color="LightSlateGray">Statistics</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Popular Books</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Popular Author</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Popular Publication</font></a></li>
-            <li><a href="#"><font color="LightSlateGray">Top Buyer</font></a></li>
+            <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
+            <li><a href="../mainView/topBooks.php"><font color="LightSlateGray">Top Books</font></a></li>
+            <li><a href="../mainView/topAuthor.php"><font color="LightSlateGray">Top Author</font></a></li>
+            <li><a href="../mainView/topPublication.php"><font color="LightSlateGray">Top Publication</font></a></li>
+            <li><a href="../mainView/topBuyer.php"><font color="LightSlateGray">Top Buyer</font></a></li>
         </ul>
 
         <br>

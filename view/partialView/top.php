@@ -98,12 +98,17 @@
 
                         <!-- Second Top -->
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <img src="../../img/logo/logo.jpg" height="50" align="center">
+                        <a href="../mainView/popularBooks.php"><img src="../../img/logo/logo.jpg" height="50" align="center"></a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="text" name="search" size="50"> <input type="submit" value="Search" >
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#"><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
-                        <span><font size="4" color="SlateGrey">0</font></span>
+                        <a href="#" onclick="cart()"><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
+                        <script>
+                          function cart(){
+                            window.open("../mainView/cart.php", "_self");
+                          };
+                        </script>
+                        <span><font size="4" color="SlateGrey">2</font></span>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                         <hr width="90%">
