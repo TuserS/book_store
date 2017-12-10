@@ -13,7 +13,7 @@ web tech project conducted by shuvra Das sir
 
 # features of user
 - can add to cart 
-- check out books 
+- check out cart
 - can see last 5 orders 
 
-By : [Asif Rahman](https://github.com/MicroAsif), [Tuser Sheikh](http://tuser.me), Shaira Shuchi
+By : [Asif Rahman](https://github.com/MicroAsif), [Tuser Sheikh](http://tuser.me), Shaira Shuchi, Roni
