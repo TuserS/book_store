@@ -1,6 +1,7 @@
 <br><br>
 
 
+<<<<<<< HEAD
 Book Name: <input name="searchAuthor" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Category:
@@ -46,3 +47,13 @@ Author:
 </br> </br>
 <input type="submit" value=" Advance Search ">
 <br><br>
+=======
+Book Name: <input name="name" >
+Category: <input name="caegory" >
+Publication: <input name="publication" >
+Author: <input name="author" >
+
+<input type="submit" value=" Advance Search ">
+<br><br>
+<hr width="95%" color="white">
+>>>>>>> 63fa62b80ba793d615bed9824629453ae9a8138d

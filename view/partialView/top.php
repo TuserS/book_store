@@ -85,8 +85,7 @@
                             <a href="../mainView/support.php"><font color="SlateGrey">Support</font></a> |
                             <a href="../mainView/contactus.php"><font color="SlateGrey">Contact Us</font></a> |
                             <a href="../mainView/signin.php"><font color="SlateGrey"><b>Sign In</b></font></a> |
-                            <a href="../mainView/signup.php"><font color="SlateGrey"><b>Sign Up</b></font></a> |
-							<a href="../mainView/doner.php"><font color="SlateGrey"><b>Doner</b></font></a> &nbsp;&nbsp;&nbsp;
+                            <a href="../mainView/signup.php"><font color="SlateGrey"><b>Sign Up</b></font></a> &nbsp;&nbsp;&nbsp;
 
 
                             <hr width="90%">
@@ -123,8 +122,7 @@
                         <a href="../mainView/publications.php"><font color="SlateGrey">PUBLISHERS</font></a> |
                         <a href="../mainView/popularBooks.php"><font color="SlateGrey">POPULAR BOOKS</font></a> |
                         <a href="../mainView/boimela.php"><font color="SlateGrey">BOIMELA 2017</font></a> |
-                        <a href="../mainView/foreginBooks.php"><font color="SlateGrey">FOREGIN BOOKS</font></a> |
-						<a href="../mainView/donerBook.php"><font color="SlateGrey">DONATION BOOKS</font></a>
+                        <a href="../mainView/foreginBooks.php"><font color="SlateGrey">FOREGIN BOOKS</font></a>
                         <br>
                         <img src="../../img/logo/space.png" height="5">
                         <!-- End Last Top -->
