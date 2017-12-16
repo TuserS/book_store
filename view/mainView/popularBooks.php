@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Categories</title>
+    <title>popular books</title>
 </head>
 <body>
 <font size="2" face="Consolas" >
@@ -21,185 +21,242 @@
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
 
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
 
-                    </tr>
-                    <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
                         </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
 
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
 
                     </tr>
                     <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
 
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
 
-                    </tr>
-                    <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
                         </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
 
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
 
                     </tr>
                     <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
-                            <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
-                            <hr width="80%">
-                            <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
-                        </td>
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
 
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
 
                     </tr>
+                    <tr height="60px">
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" >(15% OFF)</font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
+                            <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
+                            <font color="#555" size="3">(Muhammed Zafar Iqbal)</font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b>145 Tk</b></font>
+                            <font color="tomato" ></font>
+
+                            <hr width="80%">
+                            <a href="#">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+
+                    </tr>
+
 
 
 
