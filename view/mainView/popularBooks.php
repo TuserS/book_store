@@ -22,10 +22,10 @@
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
                         <td align="center" bgcolor="#ddd">
-                            <a href="Book.php"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
+                            <a href="#"><img src="../../img/book/book1.jpg" width="100px"></a> <br>
                             <hr width="80%">
                             <font color="DodgerBlue" ><b>145 Tk</b></font> &nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="Book.php"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
+                            <a href="#"><abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr></a>
                             <hr width="80%">
                             <font color="#555" size="3"><b>Muhammed Zafar Iqbal</b></font>
                         </td>
