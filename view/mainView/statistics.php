@@ -23,24 +23,24 @@
 
 
                                     <!-- Informaton table -->
-                                    <table width="70%" height="200px" >
-                                        <tr bgcolor="#bbb" align="center">
+                                    <table width="70%">
+                                        <tr bgcolor="#bbb" align="center" height="40px">
                                             <td><b> Role</b></td>
                                             <td><b> Number of users</b></td>
                                         </tr>
-                                        <tr bgcolor="#ddd" align="center">
+                                        <tr bgcolor="#ddd" align="center" height="35px">
                                             <td> Admin</td>
                                             <td> 5</td>
                                         </tr >
-                                        <tr bgcolor="#ddd" align="center">
+                                        <tr bgcolor="#ddd" align="center" height="35px">
                                             <td> Author</td>
                                             <td> 57</td>
                                         </tr>
-                                        <tr bgcolor="#ddd" align="center">
+                                        <tr bgcolor="#ddd" align="center" height="35px">
                                             <td> Publication</td>
                                             <td> 29</td>
                                         </tr>
-                                        <tr bgcolor="#ddd" align="center">
+                                        <tr bgcolor="#ddd" align="center" height="35px">
                                             <td> User</td>
                                             <td> 3025</td>
                                         </tr>

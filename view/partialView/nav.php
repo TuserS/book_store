@@ -35,7 +35,7 @@
         <hr width="80%">
         <ul>
             <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
-            <li><a href="../mainView/topBooks.php"><font color="LightSlateGray">Top Books</font></a></li>
+            <li><a href="../mainView/last5orders.php"><font color="LightSlateGray">Last 5 orders</font></a></li>
             <li><a href="../mainView/topAuthor.php"><font color="LightSlateGray">Top Author</font></a></li>
             <li><a href="../mainView/topPublication.php"><font color="LightSlateGray">Top Publication</font></a></li>
             <li><a href="../mainView/topBuyer.php"><font color="LightSlateGray">Top Buyer</font></a></li>

@@ -14,7 +14,8 @@
             <td align="center">
 
                 <br><br>
-                 <input type="text" id="authorSearch"  onkeyup="searchAuthor()" placeholder="Search Author.." size="60">
+                <input name="searchAuthor" >
+                <input type="submit" value=" Search Author ">
                 <br><br>
 
 
@@ -22,7 +23,7 @@
 
                     <tr height="150px">
                         <td align="center" bgcolor="#ddd">
-                            <a href="authorInfo.php">
+                            <a href="#">
                                 <img src="../../img/author/profilePicture.png" width="90px"> <br>
                                 <font color="#555" size="4"><b>Humayun Ahmed</b></font>
                             </a>
