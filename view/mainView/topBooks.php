@@ -18,31 +18,35 @@
                             <table align="center" width="70%">
                                 <td align="center">
                                     <br><br>
-                                    <font size="5" color="LightSalmon"><b> Statistics </b></font>
+                                    <font size="5" color="LightSalmon"><b> Top Books </b></font>
                                     <br><br><br>
 
 
                                     <!-- Informaton table -->
-                                    <table width="70%" height="200px" >
+                                    <table width="90%" height="200px" >
                                         <tr bgcolor="#bbb" align="center">
-                                            <td><b> Role</b></td>
-                                            <td><b> Number of users</b></td>
+                                            <td><b> Book Name</b></td>
+                                            <td><b> Author </b></td>
+                                            <td><b> Publication </b></td>
+                                            <td><b> Number of Sold Book </b></td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Admin</td>
-                                            <td> 5</td>
+                                            <td> Name One</td>
+                                            <td> Author one</td>
+                                            <td> Publication 1</td>
+                                            <td> 352 </td>
                                         </tr >
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Author</td>
-                                            <td> 57</td>
+                                            <td> Name two</td>
+                                            <td> Author two</td>
+                                            <td> Publication 2</td>
+                                            <td> 340</td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Publication</td>
-                                            <td> 29</td>
-                                        </tr>
-                                        <tr bgcolor="#ddd" align="center">
-                                            <td> User</td>
-                                            <td> 3025</td>
+                                            <td> Name three</td>
+                                            <td> Author three</td>
+                                            <td> Publication 3</td>
+                                            <td> 328 </td>
                                         </tr>
                                     </table>
                                     <!-- Information table close -->

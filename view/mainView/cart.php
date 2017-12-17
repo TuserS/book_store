@@ -3,13 +3,19 @@
     <title>Sign In</title>
 </head>
 <body>
+<script>
+		function deletecart(r) {
+			var i = r.parentNode.parentNode.rowIndex;
+			document.getElementById("cartTable").deleteRow(i);
+		}
+</script>
 <font size="2" face="Consolas">
     <table action="#"  width="95%" align="center">
         <?php include("../partialView/top.php"); ?>
 
         <tr height="500" bgcolor="WhiteSmoke" valign="top">
             <td align="center">
-                <table align="center"  width="70%">
+                <table align="center"  width="70%" id="cartTable">
                     <tr bgcolor="#bbb" height="40px" align="center" >
                         <br><br><br>
                         <td colspan="7"> <b>My Cart - 2 Item
@@ -39,7 +45,7 @@
 
                         </td>
                         <td>206 Tk</td>
-                        <td><input type="submit" value="Remove"> </td>
+                        <td><input type="button" value="Remove" onclick="deletecart(this)"> </td>
                     </tr>
                     <tr bgcolor="#ddd" align="center" height="50px">
                         <td>2</td>
@@ -63,7 +69,7 @@
 
                         </td>
                         <td>100 Tk</td>
-                        <td><input type="submit" value="Remove"> </td>
+                        <td><input type="button" value="Remove" onclick="deletecart(this)"> </td>
                     </tr>
 
 

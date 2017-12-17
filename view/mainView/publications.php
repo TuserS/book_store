@@ -14,8 +14,7 @@
             <td align="center">
 
                 <br><br>
-                <input name="searchAuthor" >
-                <input type="submit" value=" Search Publication ">
+                <input type="text" id="publicationSearch"  onkeyup="searchPublication()" placeholder="Search Publication.." size="60">
                 <br><br>
 
 
