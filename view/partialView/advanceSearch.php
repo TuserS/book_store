@@ -1,6 +1,7 @@
 <br><br>
 
 
+<<<<<<< HEAD
 Book Name: <input name="searchAuthor" >
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Category:
@@ -61,6 +62,7 @@ Author: <input name="author" >
 <br><br>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 Book Name: <input name="name" >
 Category: <input name="caegory" >
@@ -76,3 +78,6 @@ Author: <input name="author" >
 >>>>>>> parent of 2a3ada7... author page create ,cart remove funtion
 =======
 >>>>>>> parent of 168ba8d... Merge branch 'master' of https://github.com/TuserS/BookStore
+=======
+
+>>>>>>> parent of 2a3ada7... author page create ,cart remove funtion
