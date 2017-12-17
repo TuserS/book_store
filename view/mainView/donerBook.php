@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>foreign Books</title>
+    <title>Boimela 2017</title>
 </head>
 <body>
 <font size="2" face="Consolas" >
@@ -16,7 +16,7 @@
                 <?php include("../partialView/advanceSearch.php"); ?>
 
                 <br><br>
-                <font size="6" face="Consolas" color="SLATEBLUE"><b>Foregin Books</b></font>
+                <font size="6" face="Consolas" color="SLATEBLUE"><b>Donation List</b></font>
                 <br>
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
