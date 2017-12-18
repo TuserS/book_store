@@ -73,25 +73,11 @@
                     </tr>
 
 
-
-                    <!-- <td align="center">
-                    <font size="6" face="Consolas" color="SLATEBLUE"><b>Sign In</b></font>
-                    <hr width="60%">
-                    <br> <br>
-                    <form action="../../handler/signinHandler.php" method="post"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <font color="LightSlateGray">Email:</font>
-                        <input name="name" size="28"> <br> <br> &nbsp;&nbsp;&nbsp;
-                        <font color="LightSlateGray">Password:</font>
-                        <input name="password" size="28"> <br><br>
-                        <input type="checkbox" name="remember">
-                        <font color="LightSlateGray">Remeber Me</font><br> <br> &nbsp;&nbsp;&nbsp;
-                        <input type="submit" value="  Enter  ">
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </form>
-                    </td> -->
                 </table>
                 <br><br><br>
                 <input type="submit" value=" Buy Cart Item ">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="submit" value=" Donate Cart Item ">
             </td>
         </tr>
 

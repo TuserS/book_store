@@ -35,8 +35,14 @@
         <hr width="80%">
         <ul>
             <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
-            <li><a href="../mainView/topBooks.php"><font color="LightSlateGray">Top Books</font></a></li>
-            <li><a href="../mainView/topAuthor.php"><font color="LightSlateGray">Top Author</font></a></li>
+            <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "admin")): ?>
+
+            <?php endif; ?>
+            <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "user")): ?>
+
+            <?php endif; ?>
+            <li><a href="../mainView/last5orders.php"><font color="LightSlateGray">Last 5 Orders</font></a></li>
+            <li><a href="../mainView/userDonateBooks.php"><font color="LightSlateGray">Donated Books</font></a></li>
             <li><a href="../mainView/topPublication.php"><font color="LightSlateGray">Top Publication</font></a></li>
             <li><a href="../mainView/topBuyer.php"><font color="LightSlateGray">Top Buyer</font></a></li>
         </ul>

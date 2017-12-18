@@ -12,7 +12,7 @@
 
                     <tr valign="top" height="500px">
                         <?php include("../partialView/nav.php"); ?>
-                        <td bgcolor="WhiteSmoke" width="80%" valign="top">
+                        <td bgcolor="WhiteSmoke" width="80%" valign="top" >
 
 
                             <table align="center" width="70%">
