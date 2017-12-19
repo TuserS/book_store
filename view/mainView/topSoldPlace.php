@@ -18,26 +18,26 @@
                             <table align="center" width="70%">
                                 <td align="center">
                                     <br><br>
-                                    <font size="5" color="LightSalmon"><b> Top Publication </b></font>
+                                    <font size="5" color="LightSalmon"><b> Top Sold Place </b></font>
                                     <br><br><br>
 
 
                                     <!-- Informaton table -->
                                     <table width="70%" height="200px" >
                                         <tr bgcolor="#bbb" align="center">
-                                            <td><b> Publication Name</b></td>
-                                            <td><b> Book Sold Number</b></td>
+                                            <td><b> Place Name</b></td>
+                                            <td><b> Order </b></td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Name One</td>
+                                            <td> Bonani</td>
                                             <td> 65 </td>
                                         </tr >
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Name Two</td>
+                                            <td> Kuril</td>
                                             <td> 57 </td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center">
-                                            <td> Name three</td>
+                                            <td> Kuratoli</td>
                                             <td> 29</td>
                                         </tr>
 

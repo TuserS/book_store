@@ -1,23 +1,32 @@
 <html>
 <head>
-    <title>popular books</title>
+    <title>Order Details</title>
 </head>
 <body>
-<font size="2" face="Consolas" >
+<font size="2" face="Consolas" color="SlateGrey">
     <table action="#"  width="95%" align="center">
         <?php include("../partialView/top.php"); ?>
-
-
-
-        <tr height="500" bgcolor="WhiteSmoke">
-
-            <td align="center">
-
-                <?php include("../partialView/advanceSearch.php"); ?>
+        <tr bgcolor="WhiteSmoke">
+            <td width="80%" valign="top" align="center">
+                <table   width="50%">
+                    <tr>
+                        <td align="center" colspan="3"><img src="../../img/book/booklogo.png" width="150px">
+                    </td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr>
+                    <tr>
+                        <td>Category Name</td>
+                        <td width="30px"></td>
+                        <td><b>Name of the Catogory</b></td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr>
+                </table>
 
                 <br><br>
-                <font size="6" face="Consolas" color="SLATEBLUE"><b>Popular Books</b></font>
-                <br>
+                 <input type="text" id="authorSearch"  onkeyup="" placeholder="Search Book of This Category" size="60">
+                <br><br>
+
+
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
@@ -136,17 +145,14 @@
                             </a>
                         </td>
                     </tr>
-
-
                 </table>
                 <br><br>
+
+
             </td>
         </tr>
-
-
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
-
 </body>
 </html>

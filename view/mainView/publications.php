@@ -9,37 +9,37 @@
 
 
 
-        <tr height="500" bgcolor="WhiteSmoke">
+        <tr bgcolor="WhiteSmoke">
 
             <td align="center">
 
                 <br><br>
-                <input type="text" id="publicationSearch"  onkeyup="searchPublication()" placeholder="Search Publication.." size="60">
+                <input id="#"  onkeyup="#" placeholder=" Search Publication" size="60">
                 <br><br>
 
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
@@ -48,87 +48,31 @@
                     </tr>
                     <tr height="60px">
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
                         <td align="center" bgcolor="#ddd">
-                            <a href="#">
+                            <a href="publicationDetails.php">
                                 <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
                                 <font color="#555" size="4"> <b>Onnodin</b> </font>
                             </a>
                         </td>
 
                     </tr>
-                    <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-
-                    </tr>
-                    <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="#">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-
-                    </tr>
-
-
 
 
                 </table>

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>popular books</title>
+    <title>Used Books</title>
 </head>
 <body>
 <font size="2" face="Consolas" >
@@ -16,7 +16,7 @@
                 <?php include("../partialView/advanceSearch.php"); ?>
 
                 <br><br>
-                <font size="6" face="Consolas" color="SLATEBLUE"><b>Popular Books</b></font>
+                <font size="6" face="Consolas" color="SLATEBLUE"><b>Used Books</b></font>
                 <br>
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
@@ -26,8 +26,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" >(15% OFF)</font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -40,8 +40,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" ></font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -54,8 +54,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" >(15% OFF)</font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -68,8 +68,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" ></font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -77,6 +77,7 @@
                                 <font color="#555" size="4"><b>CART</b></font>
                             </a>
                         </td>
+
                     </tr>
                     <tr height="60px">
                         <td align="center" bgcolor="#ddd" width="25%">
@@ -84,8 +85,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" >(15% OFF)</font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -98,8 +99,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" ></font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -112,8 +113,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" >(15% OFF)</font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -126,8 +127,8 @@
                             <font color="#555" size="4"><b>Theory of Relativity</b></font><br><br>
                             <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" ></font>
+                            <font color="DodgerBlue" ><b>55 Tk</b></font>
+                            <font color="tomato" >(60% OFF)</font>
 
                             <hr width="80%">
                             <a href="#">
@@ -135,8 +136,8 @@
                                 <font color="#555" size="4"><b>CART</b></font>
                             </a>
                         </td>
+
                     </tr>
-
 
                 </table>
                 <br><br>

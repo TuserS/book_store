@@ -32,7 +32,7 @@
                                 <tr bgcolor="#ddd" align="center" height="50px">
                                     <td>1</td>
                                     <td><img src="../../img/book/book1.jpg" width="30px"></td>
-                                    <td>Book Name</td>
+                                    <td><a href="bookDetails.php"> Book Name1 </a></td>
                                     <td>100 Tk</td>
                                     <td>2</td>
                                     <td>200 Tk</td>
@@ -40,7 +40,7 @@
                                 <tr bgcolor="#ddd" align="center" height="50px">
                                     <td>2</td>
                                     <td><img src="../../img/book/book1.jpg" width="30px"></td>
-                                    <td>Book Name</td>
+                                    <td><a href="bookDetails.php"> Book Name2 </a></td>
                                     <td>106 Tk</td>
                                     <td>1</td>
                                     <td>106 Tk</td>

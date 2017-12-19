@@ -18,7 +18,7 @@
                             <table align="center" width="70%">
                                 <td align="center">
                                     <br><br>
-                                    <font size="5" color="LightSalmon"><b> Create Book </b></font>
+                                    <font size="5" color="LightSalmon"><b> Create Used Book </b></font>
 
                                     <br><br>
                                     <br><br>
@@ -26,20 +26,11 @@
                                     <form class="" action="#" method="post">
                                         Book Name: <input name="name" >
                                         <br><br>
-                                        Category: <input name="category" >
-                                        <br><br>
                                         &nbsp;&nbsp;
                                         Author: <input name="author" >
                                         <br><br>
-                                        Publication: <input name="publication" >
-                                        &nbsp;
+                                        New Price: <input name="price" >
                                         <br><br>
-                                        &nbsp;&nbsp;&nbsp;
-                                        Price: <input name="price" >
-                                        <br><br>
-                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        Cover Image: <input name="img" type="file">
-
 
                                         <hr width="50%"> <br>
 

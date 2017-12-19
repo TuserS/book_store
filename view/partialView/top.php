@@ -62,6 +62,7 @@
                             <a href="../mainView/aboutus.php"><font color="SlateGrey">About Us</font></a> |
                             <a href="../mainView/support.php"><font color="SlateGrey">Support</font></a> |
                             <a href="../mainView/contactus.php"><font color="SlateGrey">Contact Us</font></a> |
+                            <a href="../mainView/wantDonation.php"><font color="SlateGrey">Want Donation</font></a> |
                             <a href="../mainView/dashboard.php"><font color="SlateGrey"><b>My Account</b></font></a> |
                             <a href="#" onclick="signout()"><font color="SlateGrey"><b>Sign Out</b></font></a> &nbsp;&nbsp;&nbsp;
                             <script>
@@ -70,7 +71,7 @@
                               };
                             </script>
 
-                            <hr width="90%">
+                            <hr width="95%">
 
                         <?php else: ?>
                             &nbsp;&nbsp;&nbsp;
@@ -98,7 +99,7 @@
 
                         <!-- Second Top -->
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="../mainView/popularBooks.php"><img src="../../img/logo/logo.jpg" height="50" align="center"></a>
+                        <a href="../mainView/home.php"><img src="../../img/logo/logo.jpg" height="50" align="center"></a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="text" name="search" size="50"> <input type="submit" value="Search" >
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -122,7 +123,8 @@
                         <a href="../mainView/publications.php"><font color="SlateGrey">PUBLISHERS</font></a> |
                         <a href="../mainView/popularBooks.php"><font color="SlateGrey">POPULAR BOOKS</font></a> |
                         <a href="../mainView/boimela.php"><font color="SlateGrey">BOIMELA 2017</font></a> |
-                        <a href="../mainView/foreginBooks.php"><font color="SlateGrey">FOREGIN BOOKS</font></a>
+                        <a href="../mainView/foreginBooks.php"><font color="SlateGrey">FOREGIN BOOKS</font></a> |
+                        <a href="../mainView/usedBooks.php"><font color="SlateGrey">USED BOOKS</font></a>
                         <br>
                         <img src="../../img/logo/space.png" height="5">
                         <!-- End Last Top -->

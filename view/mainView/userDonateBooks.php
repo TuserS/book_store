@@ -25,31 +25,27 @@
                                     <td><b>Name</b></td>
                                     <td><b>Writer</b></td>
                                     <td><b>Price</b></td>
-                                    <td><b> # </b></td>
                                 </tr>
                                 <tr bgcolor="#ddd" align="center" height="50px">
                                     <td>1</td>
                                     <td><img src="../../img/book/book1.jpg" width="30px"></td>
-                                    <td>Book Name</td>
-                                    <td>Write Name</td>
+                                    <td><a href="bookDetails.php">Book Name 1</a> </td>
+                                    <td><a href="authorDetails.php">Write Name 1</a></td>
                                     <td>200 Tk</td>
-                                    <td> <a href="bookDetails.php">Details</a> </td>
                                 </tr>
                                 <tr bgcolor="#ddd" align="center" height="50px">
                                     <td>2</td>
                                     <td><img src="../../img/book/book1.jpg" width="30px"></td>
-                                    <td>Book Name</td>
-                                    <td>Write Name</td>
+                                    <td><a href="bookDetails.php">Book Name 2</a> </td>
+                                    <td><a href="authorDetails.php">Write Name 2</a></td>
                                     <td>200 Tk</td>
-                                    <td> <a href="bookDetails.php">Details</a> </td>
                                 </tr>
                                 <tr bgcolor="#ddd" align="center" height="50px">
                                     <td>3</td>
                                     <td><img src="../../img/book/book1.jpg" width="30px"></td>
-                                    <td>Book Name</td>
-                                    <td>Write Name</td>
+                                    <td><a href="bookDetails.php">Book Name 3</a> </td>
+                                    <td><a href="authorDetails.php">Write Name 3</a></td>
                                     <td>200 Tk</td>
-                                    <td> <a href="bookDetails.php">Details</a> </td>
                                 </tr>
 
                             </table>

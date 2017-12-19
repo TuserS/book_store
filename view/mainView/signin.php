@@ -18,7 +18,7 @@
                         <font color="LightSlateGray">Email:</font>
                         <input name="name" size="28"> <br> <br> &nbsp;&nbsp;&nbsp;
                         <font color="LightSlateGray">Password:</font>
-                        <input name="password" size="28"> <br><br>
+                        <input type="password" name="password" size="28"> <br><br>
                         <input type="checkbox" name="remember">
                         <font color="LightSlateGray">Remeber Me</font><br> <br> &nbsp;&nbsp;&nbsp;
                         <input type="submit" value="  Enter  ">

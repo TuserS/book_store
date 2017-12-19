@@ -1,23 +1,42 @@
 <html>
 <head>
-    <title>popular books</title>
+    <title>Order Details</title>
 </head>
 <body>
-<font size="2" face="Consolas" >
+<font size="2" face="Consolas" color="SlateGrey">
     <table action="#"  width="95%" align="center">
         <?php include("../partialView/top.php"); ?>
-
-
-
-        <tr height="500" bgcolor="WhiteSmoke">
-
-            <td align="center">
-
-                <?php include("../partialView/advanceSearch.php"); ?>
+        <tr bgcolor="WhiteSmoke">
+            <td width="80%" valign="top" align="center">
+                <table   width="50%">
+                    <br><br>
+                    <tr>
+                        <td align="center" colspan="3"><img src="../../img/publication/publicationLogo.png" width="150px">
+                    </td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr>
+                    <tr>
+                        <td>Name</td>
+                        <td width="30px"></td>
+                        <td><b>Name of the Publication</b></td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                            sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
+                    </tr>
+                    <tr><td colspan="3"><hr></td></tr>
+                </table>
 
                 <br><br>
-                <font size="6" face="Consolas" color="SLATEBLUE"><b>Popular Books</b></font>
-                <br>
+                 <input type="text" id="authorSearch"  onkeyup="" placeholder="Search Book of This Publication" size="60">
+                <br><br>
+
+
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
@@ -136,17 +155,14 @@
                             </a>
                         </td>
                     </tr>
-
-
                 </table>
                 <br><br>
+
+
             </td>
         </tr>
-
-
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
-
 </body>
 </html>
