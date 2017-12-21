@@ -15,7 +15,7 @@
                         <td bgcolor="WhiteSmoke" width="80%" valign="top">
 
 
-                            <table align="center" width="70%">
+                            <table align="center" width="80%">
                                 <td align="center">
                                     <br><br>
                                     <font size="5" color="LightSalmon"><b> Accept Used Books </b></font>
@@ -26,15 +26,15 @@
                                     <br><br>
 
                                     <!-- Informaton table -->
-                                    <table align="center"  width="70%" id="cartTable">
+                                    <table align="center"  width="90%" id="cartTable">
                                         <tr bgcolor="#bbb" height="40px" align="center" >
-                                            <td><b>#</b></td>
-                                            <td><b>Cover</b></td>
-                                            <td><b>Name</b></td>
-                                            <td><b>Writer</b></td>
-                                            <td><b>Price</b></td>
-                                            <td><b>New Price</b></td>
-                                            <td><b>Request</b></td>
+                                            <td width="5%"><b>#</b></td>
+                                            <td width="5%"><b>Cover</b></td>
+                                            <td width="25%"><b>Name</b></td>
+                                            <td width="25%"><b>Writer</b></td>
+                                            <td width="10%"><b>Price</b></td>
+                                            <td width="10%"><b>New Price</b></td>
+                                            <td width="20%"><b>Request</b></td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center" height="50px">
                                             <td>1</td>
@@ -43,7 +43,10 @@
                                             <td><a href="authorDetails.php">Write Name 1</a></td>
                                             <td>200 Tk</td>
                                             <td>80 Tk</td>
-                                            <td> <input type="submit" value=" Accept "> </td>
+                                            <td>
+                                                <input type="submit" value="  Accept  ">
+                                                <input type="submit" value=" Remove ">
+                                            </td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center" height="50px">
                                             <td>2</td>
@@ -52,7 +55,10 @@
                                             <td><a href="authorDetails.php">Write Name 2</a></td>
                                             <td>250 Tk</td>
                                             <td>110 Tk</td>
-                                            <td> <input type="submit" value=" Accept "> </td>
+                                            <td>
+                                                <input type="submit" value="  Accept  ">
+                                                <input type="submit" value=" Remove ">
+                                            </td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center" height="50px">
                                             <td>3</td>
@@ -61,7 +67,10 @@
                                             <td><a href="authorDetails.php">Write Name 3</a></td>
                                             <td>460 Tk</td>
                                             <td>200 Tk</td>
-                                            <td> <input type="submit" value=" Accept "> </td>
+                                            <td>
+                                                <input type="submit" value="  Accept  ">
+                                                <input type="submit" value=" Remove ">
+                                            </td>
                                         </tr>
 
                                     </table>

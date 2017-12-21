@@ -25,10 +25,20 @@
                                     <br><br>
 
                                     <form class="" action="#" method="post">
-                                        Book Name: <input name="name" size="30">
+                                        Book Name: <input name="name" >
+                                        <br><br>
+                                        Category: <input name="category" >
                                         <br><br>
                                         &nbsp;&nbsp;
-                                        Author:  <input name="author" size="30">
+                                        Author: <input name="author" >
+                                        <br><br>
+                                        Publication: <input name="publication" >
+                                        &nbsp;
+                                        <br><br>
+                                        New Price: <input name="price" >
+                                        <br><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        Cover Image: <input name="img" type="file">
 
                                         <br><br>
                                         QTY
@@ -44,8 +54,7 @@
                                               <option value="#">9</option>
                                               <option value="#">10</option>
                                             </select>
-                                        <br><br>
-                                        <font color="LightSlateGray"> (Price Depend on Books Condition)</font>
+
                                         <br><br>
 
                                         <hr width="50%"> <br>
