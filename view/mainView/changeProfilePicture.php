@@ -6,7 +6,6 @@
 <font size="2" face="Consolas" color="SlateGrey">
     <table action="#"  width="95%" align="center">
         <?php include("../partialView/top.php"); ?>
-        <?php include("../partialView/top.php"); ?>
         <tr>
             <td>
                 <table>
