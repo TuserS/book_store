@@ -21,7 +21,8 @@
             <ul>
                 <li><a href="../mainView/createAdmin.php"><font color="LightSlateGray">Create Admin</font></a></li>
                 <li><a href="../mainView/createBook.php"><font color="LightSlateGray">Create Book</font></a></li>
-                <li><a href="../mainView/createUsedBook.php"><font color="LightSlateGray">Create Used Book</font></a></li>
+                <li><a href="../mainView/acceptUsedBook.php"><font color="LightSlateGray">Accept Used Book</font></a></li>
+                <li><a href="../mainView/acceptDonation.php"><font color="LightSlateGray">Accept Donation</font></a></li>
                 <li><a href="../mainView/createCategory.php"><font color="LightSlateGray">Create Category</font></a></li>
                 <li><a href="../mainView/createAuthor.php"><font color="LightSlateGray">Create Author</font></a></li>
                 <li><a href="../mainView/createPublication.php"><font color="LightSlateGray">Create Publication</font></a></li>
