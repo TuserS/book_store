@@ -85,11 +85,12 @@
                             <a href="../mainView/aboutus.php"><font color="SlateGrey">About Us</font></a> |
                             <a href="../mainView/support.php"><font color="SlateGrey">Support</font></a> |
                             <a href="../mainView/contactus.php"><font color="SlateGrey">Contact Us</font></a> |
+                            <a href="../mainView/wantDonation.php"><font color="SlateGrey">Want Donation</font></a> |
                             <a href="../mainView/signin.php"><font color="SlateGrey"><b>Sign In</b></font></a> |
                             <a href="../mainView/signup.php"><font color="SlateGrey"><b>Sign Up</b></font></a> &nbsp;&nbsp;&nbsp;
 
 
-                            <hr width="90%">
+                            <hr width="95%">
 
                         <?php endif; ?>
 

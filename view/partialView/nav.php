@@ -43,8 +43,9 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Report</b></font>
         <hr width="80%">
         <ul>
-            <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
+
             <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "admin")): ?>
+                <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
                 <li><a href="../mainView/topSoldPlace.php"><font color="LightSlateGray">Top Sold Place</font></a></li>
                 <li><a href="../mainView/topBuyer.php"><font color="LightSlateGray">Top Buyer</font></a></li>
             <?php endif; ?>
@@ -53,7 +54,7 @@
                 <li><a href="../mainView/userDonateBooks.php"><font color="LightSlateGray">Donated Books</font></a></li>
             <?php endif; ?>
 
-
+            <li><a href="../mainView/topDonor.php"><font color="LightSlateGray">Top Donor</font></a></li>
         </ul>
 
         <br>
