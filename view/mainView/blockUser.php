@@ -18,7 +18,7 @@
                             <table align="center" width="70%">
                                 <td align="center">
                                     <br><br>
-                                    <font size="5" color="LightSalmon"><b> Remove User </b></font>
+                                    <font size="5" color="LightSalmon"><b> Block User </b></font>
 
                                     <br><br>
                                     <input name="searchBook" >
@@ -37,19 +37,19 @@
                                             <td> Name One</td>
                                             <td> example@email.com</td>
                                             <td> 017123456 </td>
-                                            <td> <input type="submit" value="Remove User"> </td>
+                                            <td> <input type="submit" value="Block User"> </td>
                                         </tr >
                                         <tr bgcolor="#ddd" align="center">
                                             <td> Name Two</td>
                                             <td> mail@live.com</td>
                                             <td> 017896541 </td>
-                                            <td> <input type="submit" value="Remove User"> </td>
+                                            <td> <input type="submit" value="Block User"> </td>
                                         </tr>
                                         <tr bgcolor="#ddd" align="center">
                                             <td> Name Three</td>
                                             <td> name@gmail.com</td>
                                             <td> 017147258 </td>
-                                            <td> <input type="submit" value="Remove User"> </td>
+                                            <td> <input type="submit" value="Block User"> </td>
                                         </tr>
                                     </table>
                                     <!-- Information table close -->
