@@ -26,7 +26,7 @@
                             <a href="#" onclick="signout()"><font color="SlateGrey"><b>Sign Out</b></font></a> &nbsp;&nbsp;&nbsp;
                             <script>
                               function signout(){
-                                window.open("../../handler/signoutHandler.php", "_self");
+                                window.open("../../../service/signout_service.php", "_self");
                               };
                             </script>
 
