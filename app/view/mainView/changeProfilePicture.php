@@ -23,7 +23,7 @@
 
                                         <table>
                                             <tr>
-                                                <td><img src='#' height="200px"> </td>
+                                                <td><img src='<?php echo $_SESSION['userdetails']['image'];?>' height="200px"> </td>
                                             </tr>
                                             <tr>
                                                 <td><input type="file" name="uploadedfile"></td>

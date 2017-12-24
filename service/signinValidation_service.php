@@ -19,7 +19,7 @@
             if($user['username']==$uname && $user['password']==$pass){
 
                 $_SESSION['useraccount']= $user;
-                $userdtails = getUserdetailsById($_SESSION['useraccount']['useraccountid']);
+                $userdtails = getUserdetailsById($_SESSION['useraccount']['userdetailsid']);
                 $_SESSION['userdetails'] = $userdtails;
 
                 // echo $_SESSION['useraccount']['useraccountid'].'<br>';

@@ -23,32 +23,30 @@
 
                                             <tr>
                                                 <td>Name</td>
-                                                <td>: <b> Md Tuser Sheikh </b></td>
+                                                <td>: <b> <?php echo $_SESSION['userdetails']['name'];?> </b></td>
                                                 <td rowspan="7" align="center">
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <img src='' height="200px">
+                                                    <img src='<?php echo $_SESSION['userdetails']['image'];?>' height="200px">
                                                     <br>
                                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                                    <a href="#"><font color="SlateGrey">Change</font></a>
+                                                    <a href="changeProfilePicture.php"><font color="SlateGrey">Change</font></a>
                                                 </td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
                                                 <td>Email</td>
-                                                <td>: <b> tuser@gmail.com </b></td>
+                                                <td>: <b> <?php echo $_SESSION['useraccount']['email'];?> </b></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
                                                 <td>Gender</td>
-                                                <td>: <b> Male</b></td>
+                                                <td>: <b> <?php echo $_SESSION['userdetails']['gender'];?> </b></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
                                                 <td>Date of Birth</td>
                                                 <td>:
-                                                    <b>date</b> /
-                                                    <b>month</b> /
-                                                    <b>year</b>
+                                                    <b> <?php echo $_SESSION['userdetails']['birthday'];?> </b>
                                                 </td>
                                             </tr>
                                             <tr><td colspan="3"><hr></td></tr>

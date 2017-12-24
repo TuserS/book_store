@@ -25,20 +25,20 @@
                                         <table>
                                             <tr>
                                                 <td>Name</td>
-                                                <td>:<input name="name" value="Md Tuser Sheikh"></td>
+                                                <td>:<input name="name" value="<?php echo $_SESSION['userdetails']['name'];?>"></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
                                                 <td>Email</td>
-                                                <td>:<input name="email" value="tuser@gmail.com"></td>
+                                                <td>:<input name="email" value="<?php echo $_SESSION['useraccount']['email'];?>"></td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
                                             <tr>
                                                 <td>Gender</td>
                                                 <td>:
-                                                    <input type="radio" name="gender" value="Male" checked> Male
-                                                    <input type="radio" name="gender" value="Female" > Female
-                                                    <input type="radio" name="gender" value="Other" > Other
+                                                    <input type="radio" name="gender" value="Male" <?php echo ($_SESSION['userdetails']['gender'])==="Male" ? "checked":"";?> > Male
+                                                    <input type="radio" name="gender" value="Female" <?php echo ($_SESSION['userdetails']['gender'])==="Female" ? "checked":"";?> > Female
+                                                    <!-- <input type="radio" name="gender" value="Other" > Other -->
                                                 </td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
@@ -46,19 +46,19 @@
                                                 <td></td>
                                                 <td>
                                                     &nbsp;
-                                                    Date
+                                                    Year
                                                     &nbsp;&nbsp;&nbsp;
                                                     Month
                                                     &nbsp;&nbsp;
-                                                    Year
+                                                    Date
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>Date of Birth</td>
                                                 <td>:
-                                                    <input name="date"  size="4" value="12">/
-                                                    <input name="month" size="4" value="09">/
-                                                    <input name="year"  size="4" value="1994">
+                                                    <input name="date"  size="4" value="<?php $date = new DateTime($_SESSION['userdetails']['birthday']); echo $date->format('Y'); ?>">/
+                                                    <input name="month" size="4" value="<?php $date = new DateTime($_SESSION['userdetails']['birthday']); echo $date->format('m'); ?>">/
+                                                    <input name="year"  size="4" value="<?php $date = new DateTime($_SESSION['userdetails']['birthday']); echo $date->format('d'); ?>">
                                                 </td>
                                             </tr>
                                             <tr><td colspan="2"><hr></td></tr>
