@@ -13,8 +13,7 @@
         </ul>
 
 
-        <!-- Administration -->
-        <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "admin")): ?>
+        <?php if (isset($_SESSION['useraccount']['role']) && !empty($_SESSION['useraccount']['role'] == "Admin")): ?>
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Administration</b></font>
             <hr width="80%">
@@ -30,8 +29,7 @@
             </ul>
         <?php endif; ?>
 
-        <!-- End Administration -->
-        <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "user")): ?>
+        <?php if (isset($_SESSION['useraccount']['role']) && !empty($_SESSION['useraccount']['role'] == "User")): ?>
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Opportunity</b></font>
             <hr width="80%">
@@ -44,13 +42,12 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="4" face="Consolas" color="SLATEBLUE"><b>Report</b></font>
         <hr width="80%">
         <ul>
-
-            <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "admin")): ?>
+            <?php if (isset($_SESSION['useraccount']['role']) && !empty($_SESSION['useraccount']['role'] == "Admin")): ?>
                 <li><a href="../mainView/statistics.php"><font color="LightSlateGray">Statistics</font></a></li>
                 <li><a href="../mainView/topSoldPlace.php"><font color="LightSlateGray">Top Sold Place</font></a></li>
                 <li><a href="../mainView/topBuyer.php"><font color="LightSlateGray">Top Buyer</font></a></li>
             <?php endif; ?>
-            <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'] == "user")): ?>
+            <?php if (isset($_SESSION['now']['role']) && !empty($_SESSION['now']['role'] == "User")): ?>
                 <li><a href="../mainView/last5orders.php"><font color="LightSlateGray">Last 5 Orders</font></a></li>
                 <li><a href="../mainView/userDonateBooks.php"><font color="LightSlateGray">Donated Books</font></a></li>
             <?php endif; ?>

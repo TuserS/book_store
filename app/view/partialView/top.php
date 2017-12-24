@@ -9,48 +9,7 @@
                     <td align="center">
 
                         <!-- First Top -->
-                        <!--
-                        &nbsp;&nbsp;&nbsp;
-                        <img src="../../img/logo/phone.png" height="15">
-                        <font size="4" color="SlateGrey" face="Consolas"><b>12345</b></font> &nbsp;
-                        <font face="Arial Narrow" color="SlateGrey">9:00 am - 11:00 pm, 7 days a week</font>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                        <a href="../mainView/home.php"><font color="SlateGrey">Home</font></a> |
-                        <a href="../mainView/aboutus.php"><font color="SlateGrey">About Us</font></a> |
-                        <a href="../mainView/support.php"><font color="SlateGrey">Support</font></a> |
-                        <a href="../mainView/contactus.php"><font color="SlateGrey">Contact Us</font></a> |
-                        <a href="../mainView/signin.php"><font color="SlateGrey"><b>Sign In</b></font></a> |
-                        <a href="../mainView/signup.php"><font color="SlateGrey"><b>Sign Up</b></font></a> &nbsp;&nbsp;&nbsp;
-
-                        <hr width="90%">
-                        -->
-                        <!-- End first Top -->
-
-                        <!--  =============  First Top After Login -->
-                        <!--
-                        &nbsp;&nbsp;&nbsp;
-                        <img src="../../img/logo/phone.png" height="15">
-                        <font size="4" color="SlateGrey" face="Consolas"><b>12345</b></font> &nbsp;
-                        <font face="Arial Narrow" color="SlateGrey">9:00 am - 11:00 pm, 7 days a week</font>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        &nbsp;&nbsp;
-
-                        <a href="../mainView/home.php"><font color="SlateGrey">Home</font></a> |
-                        <a href="../mainView/aboutus.php"><font color="SlateGrey">About Us</font></a> |
-                        <a href="#"><font color="SlateGrey">Support</font></a> |
-                        <a href="../mainView/contactus.php"><font color="SlateGrey">Contact Us</font></a> |
-                        <a href="#"><font color="SlateGrey"><b>My Account</b></font></a> |
-                        <a href="#"><font color="SlateGrey"><b>Sign Out</b></font></a> &nbsp;&nbsp;&nbsp;
-
-                        <hr width="90%">
-                        -->
-                        <!-- =============  First Top After Login -->
-
-
-                        <!-- Prototype -->
-                        <?php if (isset($_SESSION['log']) && !empty($_SESSION['log'])): ?>
+                        <?php if (isset($_SESSION['useraccount']) && !empty($_SESSION['useraccount'])): ?>
                             &nbsp;&nbsp;&nbsp;
                             <img src="../../img/logo/phone.png" height="15">
                             <font size="4" color="SlateGrey" face="Consolas"><b>12345</b></font> &nbsp;
@@ -94,7 +53,7 @@
 
                         <?php endif; ?>
 
-                        <!-- End Prototype -->
+                        <!-- End first Top -->
 
 
 
