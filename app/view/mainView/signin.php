@@ -14,11 +14,11 @@
                     <font size="6" face="Consolas" color="SLATEBLUE"><b>Sign In</b></font>
                     <hr width="60%">
                     <br> <br>
-                    <form action="../../handler/signinHandler.php" method="post"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <font color="LightSlateGray">Email:</font>
-                        <input name="name" size="28"> <br> <br> &nbsp;&nbsp;&nbsp;
+                    <form name="signin" action="../../../service/signinValidation_service.php" method="post" onSubmit="return signinValidation()">&nbsp;&nbsp;
+                        <font color="LightSlateGray">User Name:</font>
+                        <input id="name" name="username" size="28"> <br> <br> &nbsp;&nbsp;&nbsp;
                         <font color="LightSlateGray">Password:</font>
-                        <input type="password" name="password" size="28"> <br><br>
+                        <input id="password" type="password" name="password" size="28"> <br><br>
                         <input type="checkbox" name="remember">
                         <font color="LightSlateGray">Remeber Me</font><br> <br> &nbsp;&nbsp;&nbsp;
                         <input type="submit" value="  Enter  ">
@@ -32,5 +32,7 @@
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
+
+<script src="../../js/signin.js"></script>
 </body>
 </html>
