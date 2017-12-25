@@ -1,0 +1,18 @@
+<?php require_once "data_access.php"; ?>
+<?php
+
+    function getAllAuthorFromDb(){
+        $sql = "SELECT * FROM author";
+        $result = executeSQL($sql);
+
+        $users = array();
+        for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+            $users[$i] = $row;
+        }
+
+        return $users;
+    }
+
+
+
+?>
