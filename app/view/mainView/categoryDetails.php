@@ -17,7 +17,7 @@
                     <tr>
                         <td>Category Name</td>
                         <td width="30px"></td>
-                        <td><b>Name of the Catogory</b></td>
+                        <td><b><?php echo $_SESSION['category']['name'];?></b></td>
                     </tr>
                     <tr><td colspan="3"><hr></td></tr>
                 </table>

@@ -13,7 +13,7 @@
         return $categories;
     }
 
-    function getAuthorByIdFromDb($categoryId){
+    function getCategoryByIdFromDb($categoryId){
         $sql = "SELECT * FROM category WHERE categoryid=$categoryId";
         $result = executeSQL($sql);
 
@@ -21,8 +21,6 @@
 
         return $category;
     }
-
-
 
 
 ?>

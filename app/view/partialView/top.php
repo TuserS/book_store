@@ -78,7 +78,7 @@
 
                         <!-- Last Top -->
 
-                        <a href="../mainView/categories.php"><font color="SlateGrey">CATEGORIES</font></a> |
+                        <a href="../../../service/category_service.php"><font color="SlateGrey">CATEGORIES</font></a> |
                         <a href="../../../service/author_service.php"><font color="SlateGrey">AUTHORS</font></a> |
                         <a href="../../../service/publication_service.php"><font color="SlateGrey">PUBLISHERS</font></a> |
                         <a href="../mainView/popularBooks.php"><font color="SlateGrey">POPULAR BOOKS</font></a> |
