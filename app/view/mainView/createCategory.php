@@ -1,3 +1,25 @@
+<?php require_once "../../../data/category_data_access.php"; ?>
+
+<?php 
+
+if($_SERVER['REQUEST_METHOD']=="POST")
+    {
+        $name=trim($_POST['name']);
+        if(InsertCategorytoDb($name)==true){
+        echo "<script>
+                alert('Record Added');
+                document.location='createCategory.php';
+            </script>";
+        die();
+        }   
+    }
+    else{
+   
+    }
+
+?>
+
+
 <html>
 <head>
     <title>Contact Us</title>
@@ -22,9 +44,9 @@
 
                                     <br><br>
                                     <br><br>
-
-                                    <form class="" action="#" method="post">
-                                        Category Name: <input name="searchBook" >
+                                   
+                                    <form class="" action="#" method="post" onSubmit="return validCategory()">
+                                        Category Name: <input name="name" id="name" > <span id="err"></span>
                                         <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <input type="submit" value="Add Category">
                                     </form>
@@ -43,5 +65,6 @@
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
+<script src="../../js/category.js"></script>
 </body>
 </html>

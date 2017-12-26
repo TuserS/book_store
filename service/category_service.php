@@ -16,4 +16,10 @@
 
     header('Location: ../app/view/mainView/categories.php');
 
+
+    
+    function addCategory($name){
+        return InsertCategorytoDb($name);
+    }
+
 ?>
