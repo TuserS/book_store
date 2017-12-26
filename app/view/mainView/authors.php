@@ -25,7 +25,7 @@
                     <?php foreach($_SESSION['authors'] as $name): ?>
                         <?php if($x==0){$x=0; echo'<tr height="150px">'; } ?>
                         <td align="center" bgcolor="#ddd">
-                            <a href="authorDetails.php">
+                            <a href="../../../service/authorDetails_service.php?id=<?php echo $name['authorid'];?>" >
                                 <img src="<?php echo $name['image']; ?>" width="90px"> <br>
                                 <font color="#555" size="4"><b><?php echo $name['name']; $x++; ?></b></font>
                             </a>

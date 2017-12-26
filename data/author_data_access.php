@@ -13,6 +13,16 @@
         return $users;
     }
 
+    function getAuthorByIdFromDb($userId){
+        $sql = "SELECT * FROM author WHERE authorid=$userId";
+        $result = executeSQL($sql);
+
+        $user = mysqli_fetch_assoc($result);
+
+        return $user;
+    }
+
+
 
 
 ?>
