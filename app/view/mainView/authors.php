@@ -7,17 +7,12 @@
     <table action="#"  width="95%" align="center">
         <?php include("../partialView/top.php"); ?>
 
-
-
         <tr  bgcolor="WhiteSmoke">
-
             <td align="center">
 
                 <br><br>
                  <input id="#"  onkeyup="#" placeholder=" Search Author" size="60">
                 <br><br>
-
-
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
 

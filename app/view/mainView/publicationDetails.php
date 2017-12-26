@@ -11,17 +11,17 @@
                 <table   width="50%">
                     <br><br>
                     <tr>
-                        <td align="center" colspan="3"><img src="../../img/publication/publicationLogo.png" width="150px">
+                        <td align="center" colspan="3"><img src="<?php echo $_SESSION['publication']['image'];?>" width="150px">
                     </td>
                     </tr>
                     <tr><td colspan="3"><hr></td></tr>
                     <tr>
                         <td>Name</td>
                         <td width="30px"></td>
-                        <td><b>Name of the Publication</b></td>
+                        <td><b><?php echo $_SESSION['publication']['name'];?></b></td>
                     </tr>
                     <tr><td colspan="3"><hr></td></tr>
-                    <tr>
+                    <!-- <tr>
                         <td></td>
                         <td></td>
                         <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -29,7 +29,7 @@
                             in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                             sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
                     </tr>
-                    <tr><td colspan="3"><hr></td></tr>
+                    <tr><td colspan="3"><hr></td></tr> -->
                 </table>
 
                 <br><br>
