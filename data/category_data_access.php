@@ -22,8 +22,8 @@
         return $category;
     }
 
-    function InsertCategorytoDb($name){ 
-        $sql = "INSERT INTO `category` (`categoryid`, `name`) VALUES (NULL, '$name')"; 
+    function InsertCategorytoDb($name){
+        $sql = "INSERT INTO `category` (`categoryid`, `name`) VALUES (NULL, '$name')";
         $result = executeSQL($sql);
         return $result;
     }
