@@ -28,7 +28,10 @@
                               <option value="#">9</option>
                               <option value="#">10</option>
                             </select> -->
-                            <a href="#" onclick="addCart('<?php echo $_SESSION['book']['bookid'];?>')" ><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
+                            <a href="#" onclick="addCart('<?php echo $_SESSION['book']['bookid'];?>')" >
+                                <img src="../../img/logo/cart.png" align="center" height="30">
+                                <font size="4" color="SlateGrey"><b>CART</b></font>
+                            </a>
                             <br><br><br>
                         </td>
                     </tr>

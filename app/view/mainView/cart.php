@@ -28,11 +28,11 @@
                     <?php $x=1?>
                     <?php foreach($_SESSION['cart'] as $cart): ?>
                     <?php echo'<tr bgcolor="#ddd" align="center" height="50px">'; ?>
-                        <td><?php echo $x; ?></td>
+                        <td><?php echo $x++; ?></td>
                         <td><img src="<?php echo $cart['image']; ?>" width="30px" height="45"></td>
                         <td><?php echo $cart['name']; ?></td>
                         <td><?php echo round($cart['price'], 2); ?></td>
-                        <td>
+                        <!-- <td>
                             <select id="selectBox" onchange="changeCart(<?php echo $x; ?>,<?php echo $cart['price']; ?>,<?php echo $_SESSION['total']; ?>);">
                               <option value="1">1</option>
                               <option value="2">2</option>
@@ -45,7 +45,7 @@
                               <option value="9">9</option>
                               <option value="10">10</option>
                             </select>
-                        </td>
+                        </td> -->
                         <td><span id="price"><?php echo round($cart['price'], 2); ?></span></td>
 
                     <?php echo'</tr>'; ?>
@@ -121,11 +121,10 @@
    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
    var newPrice = (price * (+selectedValue) ).toFixed(2);
    var add = newPrice - price;
-   var Newtotal = (total + add).toFixed(2);
+   var newTotal = (total + add).toFixed(2);
 
-   var list = document.getElementsByTagName("TD");
-   list.getElementsByTagName("TD")[i].innerHTML = Number(newPrice).toString();
-   document.getElementById("total").innerHTML = Number(Newtotal).toString();
+   document.getElementById("cartTable").rows[i].cells[6].innerHTML = Number(newPrice).toString();
+   document.getElementById("total").innerHTML = Number(newTotal).toString();
   }
 
  </script>

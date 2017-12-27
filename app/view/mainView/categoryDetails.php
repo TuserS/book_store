@@ -47,7 +47,7 @@
                             <?php endif; ?>
 
                             <hr width="80%">
-                            <a href="#">
+                            <a href="#" onclick="addCart('<?php echo $name['bookid'];?>')">
                                 <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
                                 <font color="#555" size="4"><b>CART</b></font>
                             </a>
@@ -127,5 +127,6 @@
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
+<script src="../../js/cart.js"></script>
 </body>
 </html>
