@@ -2,6 +2,17 @@
 <head>
     <title>Publication</title>
 </head>
+<script>
+function ajaxSearch(){
+	xmlhttp=new XMLHttpRequest();
+	xmlhttp.open("GET","../../../service/Ajax_Publisher.php?qurey="+document.getElementById("ajaxInput").value,false);
+	xmlhttp.send(null);
+	document.getElementById("ajaxSearchTable").innerHTML=xmlhttp.responseText;
+	document.getElementById("ajaxSearchTable").style.visibility='visible';
+	
+}
+
+</script>
 <body>
 <font size="2" face="Consolas" >
     <table action="#"  width="95%" align="center">
@@ -11,11 +22,11 @@
             <td align="center">
 
                 <br><br>
-                <input id="#"  onkeyup="#" placeholder=" Search Publication" size="60">
+                <input id="ajaxInput"  onkeyup="ajaxSearch()" placeholder=" Search Publication" size="60">
                 <br><br>
 
 
-                <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
+                <table id="ajaxSearchTable" align="center" width="80%" cellspacing="20px" cellpadding="10px">
 
                     <?php $x=0?>
                     <?php foreach($_SESSION['publications'] as $name): ?>

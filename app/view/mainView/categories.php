@@ -3,6 +3,17 @@
     <title>Categories</title>
 </head>
 <body>
+<script>
+function ajaxSearch(){
+	xmlhttp=new XMLHttpRequest();
+	xmlhttp.open("GET","../../../service/Ajax_category.php?qurey="+document.getElementById("ajaxInput").value,false);
+	xmlhttp.send(null);
+	document.getElementById("ajaxSearchTable").innerHTML=xmlhttp.responseText;
+	document.getElementById("ajaxSearchTable").style.visibility='visible';
+	
+}
+
+</script>
 
 <font size="2" face="Consolas" >
     <table action="#"  width="95%" align="center">
@@ -13,11 +24,11 @@
             <td align="center">
 
                 <br><br>
-                <input type="text" id="#"  onkeyup="#" placeholder=" Search Category" size="60">
+                <input type="text" id="ajaxInput"  onkeyup="ajaxSearch()" placeholder=" Search Category" size="60">
                 <br><br>
 
 
-                <table id="#" align="center" width="80%" cellspacing="20px" cellpadding="10px">
+                <table id="ajaxSearchTable" align="center" width="80%" cellspacing="20px" cellpadding="10px">
 
 
                     <?php $x=0?>
