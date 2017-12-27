@@ -69,7 +69,14 @@
                             window.open("../mainView/cart.php", "_self");
                           };
                         </script>
-                        <span><font size="4" color="SlateGrey">2</font></span>
+
+                        <?php if (isset($_SESSION['cartnumber']) && !empty($_SESSION['cartnumber'])) { ?>
+                            <span id="cartnumber"> <font color="tomato" > <?php echo $_SESSION['cartnumber'] ?> </font> </span>  
+                        <?php } else { ?>
+                            <span id="cartnumber"> <font color="tomato" > 0 </font> </span>
+                        <?php } ?>
+
+
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                         <hr width="90%">

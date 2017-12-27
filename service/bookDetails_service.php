@@ -46,6 +46,7 @@
     // echo $_SESSION['book']['category'].'<br>';
     // echo $_SESSION['book']['discount'].'<br>';
     // echo $_SESSION['book']['author'].'<br>';
+    // echo $_SESSION['book']['bookid'].'<br>';
 
     header('Location: ../app/view/mainView/bookDetails.php');
 
