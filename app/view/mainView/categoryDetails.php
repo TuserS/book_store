@@ -30,26 +30,21 @@
 
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
 
-                    ///////////////////////////////////// morning
-
                     <?php $x=0?>
                     <?php foreach($_SESSION['categorybooks'] as $name): ?>
                         <?php if($x==0){$x=0; echo'<tr height="340px">'; } ?>
                         <td align="center" bgcolor="#ddd" width="25%">
-                            <a href="../../../service/bookDetails_service.php?id=<?php echo $name['bookid'];?>" >
-                                <img src="<?php echo $name['image']; ?>" width="90px"> <br>
-                                <font color="#555" size="4"><b><?php echo $name['name']; $x++; ?></b></font>
-                            </a>
-
-
+                            <?php $x++;?>
                             <a href="../../../service/bookDetails_service.php?id=<?php echo $name['bookid'];?>">
                                 <img src="<?php echo $name['image'];?>" width="100px" height="140px">
                             </a> <br> <br>
                             <font color="#555" size="4"><b><?php echo $name['name'];?></b></font><br><br>
-                            <font color="#555" size="3"><a href="authorDetails.php">(Muhammed Zafar Iqbal)</a></font>
+                            <font color="#555" size="3"><a href="../../../service/authorDetails_service.php?id=<?php echo $name['authorid'];?>">(<?php echo $name['author'];?>)</a></font>
                             <hr width="80%">
-                            <font color="DodgerBlue" ><b>145 Tk</b></font>
-                            <font color="tomato" >(15% OFF)</font>
+                            <font color="DodgerBlue" ><b><?php echo $name['price'];?> Tk</b></font>
+                            <?php if($name['discount']) : ?>
+                            <font color="tomato" >(<?php echo $name['discount'];?>% OFF)</font>
+                            <?php endif; ?>
 
                             <hr width="80%">
                             <a href="#">
@@ -61,10 +56,8 @@
                     <?php endforeach; ?>
 
 
-                    ///////////////////////////////////////
 
-
-
+<!--
                     <tr height="340px">
                         <td align="center" bgcolor="#ddd" width="25%">
                             <a href="bookDetails.php"><img src="../../img/book/book1.jpg" width="100px" height="140px"></a> <br> <br>
@@ -122,7 +115,9 @@
                                 <font color="#555" size="4"><b>CART</b></font>
                             </a>
                         </td>
-                    </tr>
+                    </tr> -->
+
+
                 </table>
                 <br><br>
 
