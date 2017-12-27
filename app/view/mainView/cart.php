@@ -19,19 +19,46 @@
                 <table align="center"  width="70%" id="cartTable">
                     <tr bgcolor="#bbb" height="40px" align="center" >
                         <br><br><br>
-                        <td colspan="7"> <b>My Cart - 2 Item
+                        <td colspan="7"> <b>My Cart - <?php echo $_SESSION['cartnumber'] ?>  Item
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            Total: 306 Tk </b>
+                            Total: <span id="total"> <?php echo round($_SESSION['total'], 2);  ?></span> Tk </b>
                         </td>
                     </tr>
-                    <tr bgcolor="#ddd" align="center" height="50px">
+
+                    <?php $x=1?>
+                    <?php foreach($_SESSION['cart'] as $cart): ?>
+                    <?php echo'<tr bgcolor="#ddd" align="center" height="50px">'; ?>
+                        <td><?php echo $x; ?></td>
+                        <td><img src="<?php echo $cart['image']; ?>" width="30px" height="45"></td>
+                        <td><?php echo $cart['name']; ?></td>
+                        <td><?php echo round($cart['price'], 2); ?></td>
+                        <td>
+                            <select id="selectBox" onchange="changeCart(<?php echo $x; ?>,<?php echo $cart['price']; ?>,<?php echo $_SESSION['total']; ?>);">
+                              <option value="1">1</option>
+                              <option value="2">2</option>
+                              <option value="3">3</option>
+                              <option value="4">4</option>
+                              <option value="5">5</option>
+                              <option value="6">6</option>
+                              <option value="7">7</option>
+                              <option value="8">8</option>
+                              <option value="9">9</option>
+                              <option value="10">10</option>
+                            </select>
+                        </td>
+                        <td><span id="price"><?php echo round($cart['price'], 2); ?></span></td>
+
+                    <?php echo'</tr>'; ?>
+                    <?php endforeach; ?>
+
+                    <!-- <tr bgcolor="#ddd" align="center" height="50px">
                         <td>1</td>
                         <td><img src="../../img/book/book1.jpg" width="30px"></td>
                         <td>Book name</td>
                         <td>206 Tk</td>
                         <td>
 
-                            <select>
+                            <select id="selectBox" onchange="changeFunc();">
                               <option value="volvo">1</option>
                               <option value="volvo">2</option>
                               <option value="volvo">3</option>
@@ -47,7 +74,7 @@
                         </td>
                         <td>206 Tk</td>
                         <td><input type="button" value="Remove" onclick="deletecart(this)"> </td>
-                    </tr>
+                    </tr> -->
 
 
                     <!-- <tr bgcolor="#ddd" align="center" height="50px">
@@ -87,5 +114,21 @@
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
+<script type="text/javascript">
+
+  function changeCart(i, price, total) {
+   var selectBox = document.getElementById("selectBox");
+   var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+   var newPrice = (price * (+selectedValue) ).toFixed(2);
+   var add = newPrice - price;
+   var Newtotal = (total + add).toFixed(2);
+
+   var list = document.getElementsByTagName("TD");
+   list.getElementsByTagName("TD")[i].innerHTML = Number(newPrice).toString();
+   document.getElementById("total").innerHTML = Number(Newtotal).toString();
+  }
+
+ </script>
+
 </body>
 </html>
