@@ -63,7 +63,7 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <input type="text" name="search" size="50"> <input type="submit" value="Search" >
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="#" onclick="cart()"><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
+                        <a href="../../../service/cartDetails_service.php"><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
                         <script>
                           function cart(){
                             window.open("../mainView/cart.php", "_self");
@@ -71,7 +71,7 @@
                         </script>
 
                         <?php if (isset($_SESSION['cartnumber']) && !empty($_SESSION['cartnumber'])) { ?>
-                            <span id="cartnumber"> <font color="tomato" > <?php echo $_SESSION['cartnumber'] ?> </font> </span>  
+                            <span id="cartnumber"> <font color="tomato" > <?php echo $_SESSION['cartnumber'] ?> </font> </span>
                         <?php } else { ?>
                             <span id="cartnumber"> <font color="tomato" > 0 </font> </span>
                         <?php } ?>

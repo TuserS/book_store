@@ -1,6 +1,7 @@
+
 <html>
 <head>
-    <title>Sign In</title>
+    <title>Cart</title>
 </head>
 <body>
 <script>
@@ -47,7 +48,9 @@
                         <td>206 Tk</td>
                         <td><input type="button" value="Remove" onclick="deletecart(this)"> </td>
                     </tr>
-                    <tr bgcolor="#ddd" align="center" height="50px">
+
+
+                    <!-- <tr bgcolor="#ddd" align="center" height="50px">
                         <td>2</td>
                         <td><img src="../../img/book/book1.jpg" width="30px"></td>
                         <td>Book name</td>
@@ -70,7 +73,7 @@
                         </td>
                         <td>100 Tk</td>
                         <td><input type="button" value="Remove" onclick="deletecart(this)"> </td>
-                    </tr>
+                    </tr> -->
 
 
                 </table>

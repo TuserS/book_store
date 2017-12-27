@@ -2,7 +2,7 @@ function addCart(bookid) {
 
     var id = Number(bookid);
 
-    document.getElementById("cartnumber").innerHTML = this.responseText;
+    // document.getElementById("cartnumber").innerHTML = this.responseText;
 
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {

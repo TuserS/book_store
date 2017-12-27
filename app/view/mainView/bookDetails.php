@@ -20,15 +20,15 @@
                               <option value="#">1</option>
                               <option value="#">2</option>
                               <option value="#">3</option>
-                              <option value="#">4</option>
+                              <option value="#">4</option>../../../service/cart_service.php
                               <option value="#">5</option>
-                              <option value="#">6</option>../../../service/cart_service.php
+                              <option value="#">6</option>
                               <option value="#">7</option>
                               <option value="#">8</option>
                               <option value="#">9</option>
                               <option value="#">10</option>
                             </select> -->
-                            <a href="#" onclick="addCart('<?php echo $_SESSION['book']['bookid'];?>')"><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
+                            <a href="#" onclick="addCart('<?php echo $_SESSION['book']['bookid'];?>')" ><img src="../../img/logo/cart.png" align="center" height="30"><font size="4" color="SlateGrey"><b>CART</b></font></a>
                             <br><br><br>
                         </td>
                     </tr>

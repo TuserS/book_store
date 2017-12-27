@@ -16,16 +16,14 @@
     }
     $book = getBookById($id);
 
-    $_SESSION['cart'][$_SESSION['cartnumber']] = $book;
+    $_SESSION['cart'][$_SESSION['cartnumber']-1] = $book;
 
 
     // echo $_SESSION['cartnumber'];
     //
     // foreach ($_SESSION['cart'] as $book) {
-    //     echo $book['name'];
+    //     echo $book['name']."<br>";
     // }
-
-
 
 
     echo $_SESSION['cartnumber'];
