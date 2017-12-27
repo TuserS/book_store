@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>foreign Books</title>
+    <title>Foreign Books</title>
 </head>
 <body>
 <font size="2" face="Consolas" >

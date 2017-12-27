@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Order Details</title>
+    <title>Author Details</title>
 </head>
 <body>
 <font size="2" face="Consolas" color="SlateGrey">

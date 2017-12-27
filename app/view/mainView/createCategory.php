@@ -1,6 +1,6 @@
 <?php require_once "../../../data/category_data_access.php"; ?>
 
-<?php 
+<?php
 
 if($_SERVER['REQUEST_METHOD']=="POST")
     {
@@ -11,10 +11,10 @@ if($_SERVER['REQUEST_METHOD']=="POST")
                 document.location='createCategory.php';
             </script>";
         die();
-        }   
+        }
     }
     else{
-   
+
     }
 
 ?>
@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 
 <html>
 <head>
-    <title>Contact Us</title>
+    <title>Create Category</title>
 </head>
 <body>
 <font size="2" face="Consolas" color="SlateGrey">
@@ -44,7 +44,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
 
                                     <br><br>
                                     <br><br>
-                                   
+
                                     <form class="" action="#" method="post" onSubmit="return validCategory()">
                                         Category Name: <input name="name" id="name" > <span id="err"></span>
                                         <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

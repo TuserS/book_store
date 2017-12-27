@@ -1,7 +1,7 @@
 
 <html>
 <head>
-    <title>Contact Us</title>
+    <title>Dashboard</title>
 </head>
 <body>
 <font size="2" face="Consolas">

@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Contact Us</title>
+    <title>Top Sold Place</title>
 </head>
 <body>
 <font size="2" face="Consolas" color="SlateGrey">
