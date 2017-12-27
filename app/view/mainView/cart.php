@@ -45,8 +45,8 @@
                               <option value="9">9</option>
                               <option value="10">10</option>
                             </select>
-                        </td> -->
-                        <td><span id="price"><?php echo round($cart['price'], 2); ?></span></td>
+                        </td>
+                        <td><span id="price"><?php echo round($cart['price'], 2); ?></span></td> -->
 
                     <?php echo'</tr>'; ?>
                     <?php endforeach; ?>
