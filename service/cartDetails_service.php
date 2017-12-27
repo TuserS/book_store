@@ -16,7 +16,12 @@
     //
     // }
 
-    header('Location: ../app/view/mainView/cart.php');
+    // header('Location: ../app/view/mainView/cart.php');
+
+
+    $myJSON = json_encode($_SESSION['cart']);
+
+    echo $myJSON;
 
 
 
