@@ -9,7 +9,7 @@ function ajaxSearch(){
 	xmlhttp.send(null);
 	document.getElementById("ajaxSearchTable").innerHTML=xmlhttp.responseText;
 	document.getElementById("ajaxSearchTable").style.visibility='visible';
-	
+
 }
 
 </script>
@@ -25,7 +25,6 @@ function ajaxSearch(){
                 <input id="ajaxInput"  onkeyup="ajaxSearch()" placeholder=" Search Publication" size="60">
                 <br><br>
 
-
                 <table id="ajaxSearchTable" align="center" width="80%" cellspacing="20px" cellpadding="10px">
 
                     <?php $x=0?>
@@ -39,37 +38,6 @@ function ajaxSearch(){
                         </td>
                     <?php if($x==4){$x=0; echo'</tr>'; } ?>
                     <?php endforeach; ?>
-
-
-
-                    <!-- <tr height="60px">
-                        <td align="center" bgcolor="#ddd">
-                            <a href="publicationDetails.php">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="publicationDetails.php">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="publicationDetails.php">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd">
-                            <a href="publicationDetails.php">
-                                <img src="../../img/publication/publicationLogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Onnodin</b> </font>
-                            </a>
-                        </td>
-
-                    </tr> -->
-
 
                 </table>
                 <br><br>

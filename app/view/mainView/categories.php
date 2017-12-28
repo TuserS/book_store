@@ -10,7 +10,7 @@ function ajaxSearch(){
 	xmlhttp.send(null);
 	document.getElementById("ajaxSearchTable").innerHTML=xmlhttp.responseText;
 	document.getElementById("ajaxSearchTable").style.visibility='visible';
-	
+
 }
 
 </script>
@@ -42,39 +42,7 @@ function ajaxSearch(){
                         </td>
                     <?php if($x==4){$x=0; echo'</tr>'; } ?>
                     <?php endforeach; ?>
-                    <!-- <tr height="60px" >
-                        <td align="center" bgcolor="#ddd" width="20%">
-                            <a href="categoryDetails.php">
-                                <img src="../../img/book/booklogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Fiction</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd" width="20%">
-                            <a href="categoryDetails.php">
-                                <img src="../../img/book/booklogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Romance</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd" width="20%">
-                            <a href="categoryDetails.php">
-                                <img src="../../img/book/booklogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Crime</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd" width="20%">
-                            <a href="categoryDetails.php">
-                                <img src="../../img/book/booklogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Thriller</b> </font>
-                            </a>
-                        </td>
-                        <td align="center" bgcolor="#ddd" width="20%">
-                            <a href="categoryDetails.php">
-                                <img src="../../img/book/booklogo.png" width="55px"> <br>
-                                <font color="#555" size="4"> <b>Thriller</b> </font>
-                            </a>
-                        </td>
-                    </tr> -->
-
+                    
                 </table>
                 <br><br>
             </td>

@@ -14,7 +14,7 @@
                     <font size="6" face="Consolas" color="SLATEBLUE"><b>Sign Up</b></font>
                     <hr width="60%">
                     <br> <br>
-                    <form action="../../handler/signupHandler.php" method="POST" name='signup' onSubmit="return signupValidation()">
+                    <form action="#" method="POST" name='signup' onSubmit="return signupValidation()">
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <font color="LightSlateGray">Name:</font>
                         <input id="name" name="name" size="28"> <font color="SLATEBLUE">(Only Letter)</font>
