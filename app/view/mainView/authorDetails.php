@@ -36,9 +36,36 @@
                  <input type="text" id="authorSearch"  onkeyup="" placeholder="Search Book of This Author" size="60">
                 <br><br>
 
-
-
                 <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
+
+                    <?php $x=0?>
+                    <?php foreach($_SESSION['authorbooks'] as $name): ?>
+                        <?php if($x==0){$x=0; echo'<tr height="340px">'; } ?>
+                        <td align="center" bgcolor="#ddd" width="25%">
+                            <?php $x++;?>
+                            <a href="../../../service/bookDetails_service.php?id=<?php echo $name['bookid'];?>">
+                                <img src="<?php echo $name['image'];?>" width="100px" height="140px">
+                            </a> <br> <br>
+                            <font color="#555" size="4"><b><?php echo $name['name'];?></b></font><br><br>
+                            <font color="#555" size="3"><a href="../../../service/authorDetails_service.php?id=<?php echo $name['authorid'];?>">(<?php echo $_SESSION['author']['name'];?>)</a></font>
+                            <hr width="80%">
+                            <font color="DodgerBlue" ><b><?php echo $name['price'];?> Tk</b></font>
+                            <?php if($name['discount']) : ?>
+                            <font color="tomato" >(<?php echo $name['discount'];?>% OFF)</font>
+                            <?php endif; ?>
+
+                            <hr width="80%">
+                            <a href="#" onclick="addCart('<?php echo $name['bookid'];?>')">
+                                <abbr title="Add to Cart"><img src="../../img/logo/cart.png" align="center" height="30"></abbr>
+                                <font color="#555" size="4"><b>CART</b></font>
+                            </a>
+                        </td>
+                    <?php if($x==4){$x=0; echo'</tr>'; } ?>
+                    <?php endforeach; ?>
+
+
+
+                <!-- <table align="center" width="80%" cellspacing="20px" cellpadding="10px">
                     <tr height="60px">
                         <td align="center" bgcolor="#ddd" width="25%">
                             <a href="bookDetails.php"><img src="../../img/book/book1.jpg" width="100px"></a> <br> <br>
@@ -155,7 +182,7 @@
                             </a>
                         </td>
                     </tr>
-                </table>
+                </table> -->
                 <br><br>
 
 
@@ -164,5 +191,6 @@
         <?php include("../partialView/bottom.php"); ?>
     </table>
 </font>
+<script src="../../js/cart.js"></script>
 </body>
 </html>
