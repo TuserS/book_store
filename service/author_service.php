@@ -8,8 +8,8 @@
 
 
 
-    function AddAuthor($author){ 
-        return insertAuthor($author)
+    function AddAuthor($author){
+        return insertAuthor($author);
     }
 
     $authors = getAllAuthor();
@@ -25,6 +25,6 @@
     header('Location: ../app/view/mainView/authors.php');
 
 
-    
+
 
 ?>

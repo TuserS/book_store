@@ -3,8 +3,8 @@
     session_start();
 
 
-    function AddPublication($publication){ 
-        return insertPublication($publication)
+    function AddPublication($publication){
+        return insertPublication($publication);
     }
 
     function getAllPublication(){

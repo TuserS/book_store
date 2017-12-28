@@ -88,10 +88,10 @@
                         <a href="../../../service/category_service.php"><font color="SlateGrey">CATEGORIES</font></a> |
                         <a href="../../../service/author_service.php"><font color="SlateGrey">AUTHORS</font></a> |
                         <a href="../../../service/publication_service.php"><font color="SlateGrey">PUBLISHERS</font></a> |
-                        <a href="../mainView/popularBooks.php"><font color="SlateGrey">POPULAR BOOKS</font></a> |
-                        <a href="../mainView/boimela.php"><font color="SlateGrey">BOIMELA 2017</font></a> |
-                        <a href="../mainView/foreginBooks.php"><font color="SlateGrey">FOREGIN BOOKS</font></a> |
-                        <a href="../mainView/usedBooks.php"><font color="SlateGrey">USED BOOKS</font></a>
+                        <a href="../../../service/popularbooks_service.php"><font color="SlateGrey">POPULAR BOOKS</font></a> |
+                        <!-- <a href="../mainView/boimela.php"><font color="SlateGrey">BOIMELA 2017</font></a> | -->
+                        <a href="../../../service/foreginbooks_service.php"><font color="SlateGrey">FOREGIN BOOKS</font></a> |
+                        <a href="../../../service/usedbooks_service.php"><font color="SlateGrey">USED BOOKS</font></a>
                         <br>
                         <img src="../../img/logo/space.png" height="5">
                         <!-- End Last Top -->
