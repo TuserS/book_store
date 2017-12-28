@@ -2,6 +2,11 @@
 <?php
     session_start();
 
+
+    function AddPublication($publication){ 
+        return insertPublication($publication)
+    }
+
     function getAllPublication(){
         return getAllPublicationFromDb();
     }

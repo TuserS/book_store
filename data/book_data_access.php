@@ -1,6 +1,14 @@
 <?php require_once "data_access.php"; ?>
 <?php
 
+
+function insertBook($book) { 
+    $sql = "INSERT INTO Book(id, name, price, discount,image, type, status,language, categoryid, authorid, publicationid) VALUES(NULL, '$book[name]','$book[price]', '$book[discount]', '$book[image]','$book[type]','$book[status]','$book[language]','$book[categoryid]','$book[authorid]','$book[publicationid]')";
+    $result = executeSQL($sql);
+    return $result;
+}
+
+
     function getAllBookFromDb(){
         $sql = "SELECT * FROM book";
         $result = executeSQL($sql);

@@ -23,6 +23,13 @@
     }
 
 
+    function insertPublication($publication) { 
+        $sql = "INSERT INTO Publication(id, name, image) VALUES(NULL, '$publication[name]', '$publication[image]')";
+        $result = executeSQL($sql);
+        return $result;
+    }
+
+
 
 
 ?>

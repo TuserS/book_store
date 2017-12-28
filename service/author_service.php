@@ -6,6 +6,12 @@
         return getAllAuthorFromDb();
     }
 
+
+
+    function AddAuthor($author){ 
+        return insertAuthor($author)
+    }
+
     $authors = getAllAuthor();
 
     $_SESSION['authors'] = $authors;

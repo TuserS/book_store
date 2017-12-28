@@ -23,6 +23,14 @@
     }
 
 
+    function insertAuthor($author) { 
+        $sql = "INSERT INTO Author(id, name, image) VALUES(NULL, '$author[name]', '$author[image]')";
+        $result = executeSQL($sql);
+        return $result;
+    }
+
+
+
 
 
 ?>
